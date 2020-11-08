@@ -1,0 +1,45 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #242424;
+    color: #5ac5ff;
+    font-family: sans-serif;
+}
+
+.Editor {
+    border: 3px dashed #464646;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding: 2em;
+    min-width: 200px;
+}
+
+span {
+    background-color: #1a1a1a;
+    font-family: monospace !important;
+    font-size: 1.5em;
+    width: 100%;
+}
+
+span > p:nth-child(2) {
+    background-color: #131313;
+    color: #fff;
+    font-size: 0.75em;
+    padding: 4px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.stones {
+    padding: 0.5em;
+    width: 100%;
+    border: 1px dashed #3f3f3f;
+}
+
+.bonuses {
+    padding: 0.5em;
+    width: 100%;
+    border: 1px dashed #3f3f3f;
+}
