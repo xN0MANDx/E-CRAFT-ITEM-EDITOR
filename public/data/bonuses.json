@@ -2,14 +2,19 @@
     "unity": [
         "Dodatkowe obrazenia: ",
         "Dodatkowe zycie: ",
-        "Dodatkowa mana: "
+        "Dodatkowa mana: ",
+        "Regeneracja many: "
     ],
     "percent": [
+        "Moc obrazen magicznych: ",
+        "Srednie obrazenia: ",
         "Silny przeciwko graczom: ",
         "Silny przeciwko mobom: ",
+        "Silny przeciwko ludziom: ",
+        "Silny przeciwko potworom: ",
+        "Silny przeciwko zwierzetom: ",
         "Dodatkowa szybkosc: ",
         "Dodatkowe doswiadczenie: ",
-        "Moc obrazen magicznych: ",
         "Obrazenia krytyczne: ",
         "Szansa na spowolnienie: ",
         "Szansa na unikniecie spowolnienia: ",
@@ -17,28 +22,33 @@
         "Szansa na cios krytyczny: ",
         "Szansa na wiecej monet: ",
         "Szansa na lepszy drop: ",
+        "Szansa na przeszycie: ",
         "Odpornosc na ciosy: ",
-        "Odpornosc na magie: ",
-        "Szansa na przeszycie: "
+        "Odpornosc na magie: "
     ],
     "all": [
+        "Moc obrazen magicznych: ",
+        "Srednie obrazenia: ",
         "Silny przeciwko graczom: ",
         "Silny przeciwko mobom: ",
+        "Silny przeciwko ludziom: ",
+        "Silny przeciwko potworom: ",
+        "Silny przeciwko zwierzetom: ",
         "Dodatkowe obrazenia: ",
         "Dodatkowe zycie: ",
         "Dodatkowa mana: ",
         "Dodatkowa szybkosc: ",
         "Dodatkowe doswiadczenie: ",
-        "Moc obrazen magicznych: ",
         "Obrazenia krytyczne: ",
+        "Regeneracja many: ",
         "Szansa na spowolnienie: ",
         "Szansa na unikniecie spowolnienia: ",
         "Szansa na blok ciosu: ",
         "Szansa na cios krytyczny: ",
         "Szansa na wiecej monet: ",
         "Szansa na lepszy drop: ",
+        "Szansa na przeszycie: ",
         "Odpornosc na ciosy: ",
-        "Odpornosc na magie: ",
-        "Szansa na przeszycie: "
+        "Odpornosc na magie: "
     ]
 }

@@ -1,5 +1,6 @@
 {
   "name": "item-editor",
+  "homepage":"https://e-craft.pl/ie",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

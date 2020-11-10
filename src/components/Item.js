@@ -71,6 +71,7 @@ class Item extends Component {
                     <br />
                     Typ: {' '}
                     <select onChange={(e) => this.handleEditBonus(e.target.value, id, 1)}>
+                        <option value={null}> </option>
                         {bons.all.map((bon, id) => <option key={id} value={id}>{bon}</option> )}
                     </select>
                     <br />
