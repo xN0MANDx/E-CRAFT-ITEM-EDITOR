@@ -79,7 +79,7 @@ class Weapon extends Component {
         const lore = [];
 
         let command = 'give ' + player + ' ' + material + ' 1 ';
-        command += 'name:' + name.replaceAll(' ', '_') + ' lore:';
+        command += 'name:' + name.split(' ').join('_') + ' lore:';
 
         lore.push(lineSpace);
         if (reqLevel !== '')
@@ -116,7 +116,7 @@ class Weapon extends Component {
 
         const finalLore = lore.map((line, id) => {
 
-            line = line.replaceAll(' ', '_');
+            line = line.split(' ').join('_');
             if (id !== 0) line = '|'+line;
 
             return line;
