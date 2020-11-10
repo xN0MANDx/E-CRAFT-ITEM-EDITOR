@@ -16,7 +16,9 @@ class Item extends Component {
     }
 
     componentDidMount() {
-        fetch('data/bonuses.json')
+        fetch('data/bonuses.json', {
+            'Cache-Control': 'no-cache'
+        })
         .then(response => response.json())
         .then(result => this.setState({ bons: result }))
     }
