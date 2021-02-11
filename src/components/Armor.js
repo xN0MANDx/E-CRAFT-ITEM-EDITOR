@@ -52,7 +52,7 @@ class Armor extends Component {
         const { name, reqLevel, bonuses, stones, worth, bons } = parent;
         const { protection, material } = this.state;
 
-        const lineSpace = '&8&m                          ';
+        const lineSpace = '&8&m                                ';
         const lore = [];
 
         let command = 'give ' + player + ' ' + material + ' 1 ';

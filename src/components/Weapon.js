@@ -75,7 +75,7 @@ class Weapon extends Component {
         const { name, reqLevel, bonuses, stones, worth, bons } = parent;
         const { damageFrom, damageTo, material } = this.state;
 
-        const lineSpace = '&8&m                          ';
+        const lineSpace = '&8&m                                ';
         const lore = [];
 
         let command = 'give ' + player + ' ' + material + ' 1 ';
