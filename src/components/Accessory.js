@@ -76,7 +76,7 @@ class Accessory extends Component {
         const { name, reqLevel, bonuses, stones, worth, bons } = parent;
         const { type, time, material } = this.state;
 
-        const lineSpace = '&7&m                          ';
+        const lineSpace = '&8&m                          ';
         const lore = [];
 
         let command = 'give ' + player + ' ' + material + ' 1 ';
@@ -84,20 +84,20 @@ class Accessory extends Component {
 
         lore.push(lineSpace);
         if (reqLevel !== '')
-            lore.push('&8Wymagany Poziom: &7'+reqLevel);
+            lore.push('&7Wymagany Poziom: &c'+reqLevel);
 
         if (time) {
-            lore.push('&8Pozostaly czas: &7'+time+' minut');
+            lore.push('&7Pozostaly czas: &7'+time+' minut');
         }
 
         if (worth)
-            lore.push('&8Wartosc: &a'+worth+"$");
+            lore.push('&7Wartosc: &a'+worth+"$");
 
-        lore.push('&8Typ: &6'+type)
+        lore.push('&7Typ: &6'+type)
 
         if (stones !== '0') {
             lore.push(lineSpace);
-            lore.push('&8Kamienie Dusz:')
+            lore.push('&7Kamienie Dusz:')
             for(let i=0; i<stones; i++) {
                 lore.push(' &7- Wolny Slot');
             }
@@ -105,7 +105,7 @@ class Accessory extends Component {
 
         if (bonuses.length > 0) {
             lore.push(lineSpace);
-            lore.push('&8Bonusy Wbudowane:');
+            lore.push('&7Bonusy Wbudowane:');
             bonuses.forEach(bonus => {
                 const value = parseInt(bonus.value);
                 const unity = bons.unity.includes(bons.all[bonus.type]) ? '' : '%';

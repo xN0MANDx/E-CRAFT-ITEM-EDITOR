@@ -52,7 +52,7 @@ class Armor extends Component {
         const { name, reqLevel, bonuses, stones, worth, bons } = parent;
         const { protection, material } = this.state;
 
-        const lineSpace = '&7&m                          ';
+        const lineSpace = '&8&m                          ';
         const lore = [];
 
         let command = 'give ' + player + ' ' + material + ' 1 ';
@@ -60,18 +60,18 @@ class Armor extends Component {
 
         lore.push(lineSpace);
         if (reqLevel !== '')
-            lore.push('&8Wymagany Poziom: &7'+reqLevel);
+            lore.push('&7Wymagany Poziom: &c'+reqLevel);
 
-        lore.push('&8Pancerz: &3'+protection);
+        lore.push('&7Pancerz: &3'+protection);
 
         if (worth)
-            lore.push('&8Wartosc: &a'+worth+"$");
+            lore.push('&7Wartosc: &a'+worth+"$");
 
-        lore.push('&8Typ: &6Zbroja');
+        lore.push('&7Typ: &6Zbroja');
 
         if (stones !== '0') {
             lore.push(lineSpace);
-            lore.push('&8Kamienie Dusz:')
+            lore.push('&7Kamienie Dusz:')
             for(let i=0; i<stones; i++) {
                 lore.push(' &7- Wolny Slot');
             }
@@ -79,7 +79,7 @@ class Armor extends Component {
 
         if (bonuses.length > 0) {
             lore.push(lineSpace);
-            lore.push('&8Bonusy Wbudowane:');
+            lore.push('&7Bonusy Wbudowane:');
             bonuses.forEach(bonus => {
                 const value = parseInt(bonus.value);
                 const unity = bons.unity.includes(bons.all[bonus.type]) ? '' : '%';

@@ -8,10 +8,10 @@
     "percent": [
         "Moc obrazen magicznych: ",
         "Srednie obrazenia: ",
-        "Silny przeciwko graczom: ",
-        "Silny przeciwko mobom: ",
+        "Silny przeciwko istotom magicznym: ",
+        "Silny przeciwko nieumarlym: ",
         "Silny przeciwko ludziom: ",
-        "Silny przeciwko potworom: ",
+        "Silny przeciwko demonom: ",
         "Silny przeciwko zwierzetom: ",
         "Dodatkowa szybkosc: ",
         "Dodatkowe doswiadczenie: ",
@@ -25,15 +25,16 @@
         "Szansa na przeszycie: ",
         "Szansa na odbicie: ",
         "Odpornosc na ciosy: ",
-        "Odpornosc na magie: "
+        "Odpornosc na magie: ",
+        "Szybkosc zaklec: "
     ],
     "all": [
         "Moc obrazen magicznych: ",
         "Srednie obrazenia: ",
-        "Silny przeciwko graczom: ",
-        "Silny przeciwko mobom: ",
+        "Silny przeciwko istotom magicznym: ",
+        "Silny przeciwko nieumarlym: ",
         "Silny przeciwko ludziom: ",
-        "Silny przeciwko potworom: ",
+        "Silny przeciwko demonom: ",
         "Silny przeciwko zwierzetom: ",
         "Dodatkowe obrazenia: ",
         "Dodatkowe zycie: ",
@@ -51,6 +52,7 @@
         "Szansa na przeszycie: ",
         "Szansa na odbicie: ",
         "Odpornosc na ciosy: ",
-        "Odpornosc na magie: "
+        "Odpornosc na magie: ",
+        "Szybkosc zaklec: "
     ]
 }
