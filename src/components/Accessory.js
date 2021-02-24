@@ -50,7 +50,7 @@ class Accessory extends Component {
                     <option value="351:0">Pas</option>
                     <option value="NETHER_WART">Kolczyki</option>
                     <option value="STRING">Naszyjnik</option>
-                    <option value="SPIDER_EYE_FERMENTED">Pierścień</option>
+                    <option value="FERMENTED_SPIDER_EYE">Pierścień</option>
                 </select>
                 {type === 'Pierscien' ?
                     <>
