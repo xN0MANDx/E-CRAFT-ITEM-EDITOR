@@ -21,7 +21,7 @@ class Accessory extends Component {
             accessory = 'Kolczyki';
         } else if (type === 'STRING') {
             accessory = 'Naszyjnik';
-        } else if (type === 'SPIDER_EYE_FERMENTED') {
+        } else if (type === 'FERMENTED_SPIDER_EYE') {
             accessory = 'Pierscien';
         }
 
@@ -87,7 +87,7 @@ class Accessory extends Component {
             lore.push('&7Wymagany Poziom: &c'+reqLevel);
 
         if (time) {
-            lore.push('&7Pozostaly czas: &7'+time+' minut');
+            lore.push('&7Pozostaly czas: &9'+time+' minut');
         }
 
         if (worth)
