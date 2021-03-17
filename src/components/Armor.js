@@ -23,14 +23,26 @@ class Armor extends Component {
                 Wybierz Materiał Przedmiotu: {' '}
                 <select onChange={this.handleChangeMaterial}>
                     <option value={null}> </option>
-                    <option value="IRON_HELMET">Hełm</option>
-                    <option value="IRON_CHESTPLATE">Napierśnik</option>
-                    <option value="IRON_LEGGINGS">Spodnie</option>
-                    <option value="IRON_BOOTS">Buty</option>
-                    <option value="DIAMOND_HELMET">Specjalny Hełm</option>
-                    <option value="DIAMOND_CHESTPLATE">Specjalny Napierśnik</option>
-                    <option value="DIAMOND_LEGGINGS">Specjalne Spodnie</option>
-                    <option value="DIAMOND_BOOTS">Specjalne Buty</option>
+                    <option value="LEATHER_HELMET">Skórzany Hełm</option>
+                    <option value="LEATHER_CHESTPLATE">Skórzany Napierśnik</option>
+                    <option value="LEATHER_LEGGINGS">Skórzane Spodnie</option>
+                    <option value="LEATHER_BOOTS">Skórzane Buty</option>
+                    <option value="CHAINMAIL_HELMET">Kolczany Hełm</option>
+                    <option value="CHAINMAIL_CHESTPLATE">Kolczany Napierśnik</option>
+                    <option value="CHAINMAIL_LEGGINGS">Kolczane Spodnie</option>
+                    <option value="CHAINMAIL_BOOTS">Kolczane Buty</option>
+                    <option value="GOLD_HELMET">Złoty Hełm</option>
+                    <option value="GOLD_CHESTPLATE">Złoty Napierśnik</option>
+                    <option value="GOLD_LEGGINGS">Złote Spodnie</option>
+                    <option value="GOLD_BOOTS">Złote Buty</option>
+                    <option value="IRON_HELMET">Żelazny Hełm</option>
+                    <option value="IRON_CHESTPLATE">Żelazny Napierśnik</option>
+                    <option value="IRON_LEGGINGS">Żelazne Spodnie</option>
+                    <option value="IRON_BOOTS">Żelazne Buty</option>
+                    <option value="DIAMOND_HELMET">Diamentowy Hełm</option>
+                    <option value="DIAMOND_CHESTPLATE">Diamentowy Napierśnik</option>
+                    <option value="DIAMOND_LEGGINGS">Diamentowe Spodnie</option>
+                    <option value="DIAMOND_BOOTS">Diamentowe Buty</option>
                 </select>
                 <br />
                 <br />
