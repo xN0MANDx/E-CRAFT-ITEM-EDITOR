@@ -34,25 +34,30 @@ class Weapon extends Component {
                     <option value="DIAMOND_SWORD">Diamentowy Miecz</option>
                     <option value="DIAMOND_AXE">Diamentowa Siekiera</option>
                     <option value="DIAMOND_PICKAXE">Diamentowy Kilof</option>
-                    <option value="DIAMOND_SHOVEL">Diamentowa Łopata aka Włócznia</option>
+                    <option value="DIAMOND_SHOVEL">Diamentowa Łopata</option>
+                    <option value="DIAMOND_HOE">Diamentowa Motyka</option>
                     <option value="STONE_SWORD">Kamienny Miecz</option>
                     <option value="STONE_AXE">Kamienna Siekiera</option>
                     <option value="STONE_PICKAXE">Kamienny Kilof</option>
-                    <option value="STONE_SHOVEL">Kamienna Łopata aka Włócznia</option>
+                    <option value="STONE_SHOVEL">Kamienna Łopata</option>
+                    <option value="STONE_HOE">Kamienna Motyka</option>
                     <option value="WOOD_SWORD">Drewniany Miecz</option>
                     <option value="WOOD_AXE">Drewniana Siekiera</option>
                     <option value="WOOD_PICKAXE">Drewniany Kilof</option>
-                    <option value="WOOD_SHOVEL">Drewniana Łopata aka Włócznia</option>
+                    <option value="WOOD_SHOVEL">Drewniana Łopata</option>
+                    <option value="WOOD_HOE">Drewniana Motyka</option>
                     <option value="IRON_SWORD">Żelazny Miecz</option>
                     <option value="IRON_AXE">Żelazna Siekiera</option>
                     <option value="IRON_PICKAXE">Żelazny Kilof</option>
-                    <option value="IRON_SHOVEL">Żelazna Łopata aka Włócznia</option>
+                    <option value="IRON_SHOVEL">Żelazna Łopata</option>
+                    <option value="IRON_HOE">Żelazna Motyka</option>
                     <option value="GOLD_SWORD">Złoty Miecz</option>
                     <option value="GOLD_AXE">Złota Siekiera</option>
                     <option value="GOLD_PICKAXE">Złoty Kilof</option>
-                    <option value="GOLD_SHOVEL">Złota Łopata aka Włócznia</option>
+                    <option value="GOLD_SHOVEL">Złota Łopata</option>
+                    <option value="GOLD_HOE">Złota Motyka</option>
                     <option value="BLAZE_ROD">Różdżka Blaze'a</option>
-                    <option value="STICK">Patyk aka Dzida</option>
+                    <option value="STICK">Patyk</option>
                 </select>
                 <br />
                 <br />
